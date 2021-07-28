@@ -1,0 +1,57 @@
+.form{
+
+    max-width: 82%; 
+    margin: 2rem auto;
+    background-color: rgb(81, 18, 117);
+ 
+    padding-left: 2rem;
+}
+.new-expense__controls {
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+ 
+  }
+  
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-expense__tbn{
+    font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-right:16px;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  
+  } 
+  .new-expense__btnn{
+    font-size: 1rem;
+  font-weight: bold;
+  color: white;
+   gap: 5rem;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  
+  } 
